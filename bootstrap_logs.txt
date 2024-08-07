@@ -1,0 +1,37 @@
+CDKToolkit |  0/12 | 2:16:24 AM | REVIEW_IN_PROGRESS   | AWS::CloudFormation::Stack | CDKToolkit User Initiated
+CDKToolkit |  0/12 | 2:16:30 AM | CREATE_IN_PROGRESS   | AWS::CloudFormation::Stack | CDKToolkit User Initiated
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter     | CdkBootstrapVersion
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::S3::Bucket         | StagingBucket
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | LookupRole
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | CloudFormationExecutionRole
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | ImagePublishingRole
+CDKToolkit |  0/12 | 2:16:32 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | FilePublishingRole
+CDKToolkit |  0/12 | 2:16:33 AM | CREATE_IN_PROGRESS   | AWS::ECR::Repository    | ContainerAssetsRepository
+CDKToolkit |  0/12 | 2:16:33 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | CloudFormationExecutionRole Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:33 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | FilePublishingRole Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:33 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | LookupRole Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:34 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | ImagePublishingRole Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:34 AM | CREATE_IN_PROGRESS   | AWS::S3::Bucket         | StagingBucket Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:34 AM | CREATE_IN_PROGRESS   | AWS::ECR::Repository    | ContainerAssetsRepository Resource creation Initiated
+CDKToolkit |  0/12 | 2:16:34 AM | CREATE_IN_PROGRESS   | AWS::SSM::Parameter     | CdkBootstrapVersion Resource creation Initiated
+CDKToolkit |  1/12 | 2:16:34 AM | CREATE_COMPLETE      | AWS::ECR::Repository    | ContainerAssetsRepository
+CDKToolkit |  2/12 | 2:16:34 AM | CREATE_COMPLETE      | AWS::SSM::Parameter     | CdkBootstrapVersion
+CDKToolkit |  3/12 | 2:16:47 AM | CREATE_COMPLETE      | AWS::S3::Bucket         | StagingBucket
+CDKToolkit |  3/12 | 2:16:48 AM | CREATE_IN_PROGRESS   | AWS::S3::BucketPolicy   | StagingBucketPolicy
+CDKToolkit |  3/12 | 2:16:49 AM | CREATE_IN_PROGRESS   | AWS::S3::BucketPolicy   | StagingBucketPolicy Resource creation Initiated
+CDKToolkit |  4/12 | 2:16:49 AM | CREATE_COMPLETE      | AWS::S3::BucketPolicy   | StagingBucketPolicy
+CDKToolkit |  5/12 | 2:16:51 AM | CREATE_COMPLETE      | AWS::IAM::Role          | CloudFormationExecutionRole
+CDKToolkit |  6/12 | 2:16:51 AM | CREATE_COMPLETE      | AWS::IAM::Role          | FilePublishingRole
+CDKToolkit |  7/12 | 2:16:51 AM | CREATE_COMPLETE      | AWS::IAM::Role          | ImagePublishingRole
+CDKToolkit |  8/12 | 2:16:51 AM | CREATE_COMPLETE      | AWS::IAM::Role          | LookupRole
+CDKToolkit |  8/12 | 2:16:51 AM | CREATE_IN_PROGRESS   | AWS::IAM::Policy        | FilePublishingRoleDefaultPolicy
+CDKToolkit |  8/12 | 2:16:52 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | DeploymentActionRole
+CDKToolkit |  8/12 | 2:16:52 AM | CREATE_IN_PROGRESS   | AWS::IAM::Policy        | ImagePublishingRoleDefaultPolicy
+CDKToolkit |  8/12 | 2:16:52 AM | CREATE_IN_PROGRESS   | AWS::IAM::Policy        | FilePublishingRoleDefaultPolicy Resource creation Initiated
+CDKToolkit |  8/12 | 2:16:52 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role          | DeploymentActionRole Resource creation Initiated
+CDKToolkit |  8/12 | 2:16:53 AM | CREATE_IN_PROGRESS   | AWS::IAM::Policy        | ImagePublishingRoleDefaultPolicy Resource creation Initiated
+CDKToolkit |  9/12 | 2:17:08 AM | CREATE_COMPLETE      | AWS::IAM::Policy        | FilePublishingRoleDefaultPolicy
+CDKToolkit | 10/12 | 2:17:08 AM | CREATE_COMPLETE      | AWS::IAM::Policy        | ImagePublishingRoleDefaultPolicy
+CDKToolkit | 11/12 | 2:17:10 AM | CREATE_COMPLETE      | AWS::IAM::Role          | DeploymentActionRole
+CDKToolkit | 12/12 | 2:17:11 AM | CREATE_COMPLETE      | AWS::CloudFormation::Stack | CDKToolkit
+ ✅  Environment aws://891376952145/ca-central-1 bootstrapped.
